@@ -1,0 +1,12 @@
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:Exclude="SurveyPortal.Migrations" /p:CoverletOutput="./TestResults/"
+dotnet reportgenerator "-reports:TestResults\coverage.cobertura.xml" "-targetdir:TestResults\html" "-classfilters:-*.Migrations.*" -reporttypes:HTML;
+
+--opencover,lcov,
+
+set ASPNETCORE_ENVIRONMENT=Development
+
+
+dotnet run --launch-profile Dev
+
+Get .net core
+https://dotnet.microsoft.com/download/dotnet-core/1.1

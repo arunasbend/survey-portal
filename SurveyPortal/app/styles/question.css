@@ -1,0 +1,8 @@
+.questionTitle {
+  flex-grow: 1;
+}
+.survey-wrap a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

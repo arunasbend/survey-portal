@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/Program.cs": true,
+			"**/Startup.cs": true,
+			"**/Controllers/HomeController.cs": true,
+			"**/Controllers/AnswerController.cs": true,
+			"**/Controllers/UserGroupController.cs": true,
+			"**/Controllers/QuestionController.cs": true,
+			"**/Controllers/SurveyController.cs": true,
+			"**/Controllers/UserController.cs": true,
+			"**/Controllers/CRUDController.cs": true,
+			
+			"**/Requests/LoginUserRequest.cs": true,
+			"**/Requests/ForgotPasswordRequest.cs": true,
+			"**/Requests/ResetPasswordRequest.cs": true,
+			"**/Requests/CreateUserRequest.cs": true,
+			"**/Responses/LoginResponse.cs": true,
+			"**/Responses/ErrorResponse.cs": true,
+			
+			"**/wwwroot/": true,
+			"**/Migrations/": true,
+			"**/Properties/": true,
+
+			"**/*.sln*": true,
+			"**/*.csproj*": true,
+			"**/*webpack*": true,
+			"**/*web.config": true,
+			"**/*global.json": true,
+			"**/*eslint*": true,
+			"**/*package*": true,
+			
+			"**/.vs/": true,
+			"**/.vscode/": true,
+			"**/bin/": true,
+			"**/node_modules/": true,
+			"**/obj/": true
+		}
+	}
+}
